@@ -95,6 +95,11 @@ body {
     display: flex;
 }
 
+/* 햄버거 메뉴 태블릿 전에는 나오지 않게 설정 */
+.btn-menu {
+    display: none;
+}
+
 .gnb li a {
     display: block;
     /* border: 1px solid #000; */
